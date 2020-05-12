@@ -8,6 +8,7 @@ end
 
 def move(board, position, character="X")
   board[index] = position
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   character = "X"
 end
 
