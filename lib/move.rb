@@ -9,7 +9,6 @@ end
 def move(board, position, character="X")
   board[index] = position
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  move(board, "0", "X")
 end
 
 def input_to_index(input)
